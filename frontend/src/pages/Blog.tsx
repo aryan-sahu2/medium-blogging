@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { useParams } from "react-router-dom";
-import { useBlog } from "../hooks";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { BlogPage } from "../components/BlogPage";

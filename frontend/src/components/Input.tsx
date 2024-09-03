@@ -1,4 +1,4 @@
-import React, { ChangeEvent, ChangeEventHandler } from "react";
+import { ChangeEvent } from "react";
 
 interface labelledInput {
   label: string;
@@ -11,7 +11,6 @@ export const Input = ({
   label,
   placeholder,
   type,
-  purpose,
   onChange,
 }: labelledInput) => {
   return (

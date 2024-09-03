@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Quote = () => {
   return (
     <div className="bg-slate-200 h-full w-full flex justify-center items-center  ">

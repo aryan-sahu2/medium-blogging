@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function Avatar({ name, size }: { name: string , size?: "small"|"big" }) {
     return (
       <div className={`relative inline-flex items-center justify-center ${size==="small"?"w-7 h-7":"w-9 h-9"} overflow-hidden  bg-gray-400 rounded-full `}>
