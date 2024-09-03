@@ -18,7 +18,7 @@ export const blogSlice = createSlice({
     addBlog: (state, action) => {
       state.value = action.payload;
     },
-    removeBlog: (state, action) => {
+    removeBlog: (state) => {
       state.value = [];
     },
   },

@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 export const Blog = () => {
   const { id } = useParams();
 
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
   //replace below code using Redux data
   // const {  loading } = useBlog({ id: id || "" });
   const blog = useSelector((state: any) =>

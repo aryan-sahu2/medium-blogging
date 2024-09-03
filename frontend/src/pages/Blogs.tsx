@@ -12,7 +12,7 @@ export const Blogs = () => {
     <>
       <Appbar username="Aryan" />
       <div className="mx-5 sm:mx-auto sm:max-w-screen-md py-5">
-        {blogs.length > 0 ? (
+        {!loading ? (
           blogs.map(
             (
               item: {

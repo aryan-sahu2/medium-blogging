@@ -27,13 +27,13 @@ function Publish() {
   const [title, setTitle] = useState("");
   const navigate = useNavigate()
 
-  function handleOnChangeContent(event: any, editor: any) {
+  function handleOnChangeContent( editor: any) {
     setContent(editor.getData());
   }
 
   async function publishBlog() {
     //get content and title. make axios post call on url. pass this function to the Appbar publish button onClick
-    const response = await axios.post(
+    await axios.post(
       `${BACKEND_URL}/api/v1/blog`,
       {
         title,
